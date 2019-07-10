@@ -58,7 +58,8 @@ Both ```nexis_rtf_extract``` and ```factiva_extract``` return lists of dicts whe
 You can use the function ```fix_fac_fieldnames``` to convert Factiva fieldnames to their longer and more descriptive NexisUni equivalents like so:
 
 ```python
-fc_converted = ne.fix_fac_fieldnames(fc_data) #note that this will only convert eight common field names, leaving the rest intact
+#note that this will only convert eight common field names, leaving the rest intact
+fc_converted = ne.fix_fac_fieldnames(fc_data) 
 ```
 
 ### Merging Factiva and NexisUni data into a single Pandas variable
