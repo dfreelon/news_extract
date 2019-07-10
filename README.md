@@ -3,7 +3,8 @@
  
 ## Requirements
 
-pandas
+* Python 3
+* [pandas](https://pandas.pydata.org/)
 
 ## Installation
 
