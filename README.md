@@ -38,7 +38,7 @@ fc_file = 'results2.txt' #file exported from Factiva
 nu_data = ne.nexis_rtf_extract(nu_file)
 fc_data = ne.factiva_extract(fc_file)
 
-print(print(nu_data[0].keys())) #view field names for NexisUni articles
+print(nu_data[0].keys()) #view field names for NexisUni articles
 print(fc_data[0].keys()) #view field names for first Factiva article
 
 for i in nu_data:
