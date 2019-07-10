@@ -49,7 +49,7 @@ for i in fc_data:
 
 ## Output
 
-Both ```nexis_rtf_extract``` and ```factiva_extract``` return lists of dicts wherein each dict corresponds to an article. The dict keys are field names, while the dict values are the metadata. One major difference between the two functions is that ```nexis_rtf_extract``` outputs the same set of metadata for all articles, while ```factiva_extract``` auto-extracts the specific field names and values attached to each article. This is due to differences in how the two types of files are formatted.
+Both ```nexis_rtf_extract``` and ```factiva_extract``` return lists of dicts wherein each dict corresponds to an article. The dict keys are field names, while the dict values are the metadata. One major difference between the two functions is that ```nexis_rtf_extract``` outputs the same set of metadata for all articles, while ```factiva_extract``` auto-extracts the specific field names and values attached to each article. This is due to differences in how the two types of export files are formatted.
 
 ## Combining Factiva and NexisUni output
 
