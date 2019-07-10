@@ -70,6 +70,6 @@ nu_plus_fc = nu_data + fc_converted
 combined = ne.news_export(nu_plus_fc)
 ```
 
-The ```news_export``` function performs several operations, including removing duplicates (using a custom algorithm based on the Jaccard coefficient and time of publication) and resolving conflicts between articles with different metadata fields. For the latter, the function attempts to export all fields included in at least half the articles. This proportion can be adjusted using the ```field_threshold``` parameter.
+The ```news_export``` function performs several operations, including removing duplicates (using a custom algorithm based on the Jaccard coefficient and time of publication) and resolving conflicts between articles with different metadata fields. For the latter, the function attempts to export all fields included in at least half the articles by default. This proportion can be adjusted using the ```field_threshold``` parameter.
 
 By default, ```news_export``` returns a Pandas DataFrame containing the output data. You can save individual JSON files to disk (i.e. one article per file) by setting the ```to_pandas``` parameter to ```False```.
