@@ -1,0 +1,9 @@
+setup.py
+news_extract/__init__.py
+news_extract/news_extract.py
+news_extract/striprtf2.py
+news_extract.egg-info/PKG-INFO
+news_extract.egg-info/SOURCES.txt
+news_extract.egg-info/dependency_links.txt
+news_extract.egg-info/requires.txt
+news_extract.egg-info/top_level.txt
