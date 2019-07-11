@@ -29,6 +29,7 @@
 4. Click the "Format for Saving" button that looks like a 3.5" floppy disk and select "Article Format."
 5. On the resulting page, select "Save Page As..." from the Firefox menu.
 6. In the "Save as type" dropdown, select "Text Files" and save your file.
+7. See [this animated gif](https://rtemis.hypotheses.org/files/2017/02/Factiva-animated-tutorial.gif) for a summary of these instructions (warning: French) 
 
 Once you've exported your file(s), you can do the following:
 
