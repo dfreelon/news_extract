@@ -17,7 +17,7 @@
 ### NexisUni export instructions
 
 1. Make sure you are exporting full documents with no attachments, not just the results list.
-2. Export in RTF format.
+2. Export in RTF format. (Note: you can export up to 100 articles at a time if you create an individual NexisUni account and change your personal settings accordingly.)
 3. Save documents in a single file.
 4. Uncheck all options on the "Formatting Options" tab.
 
